@@ -12,6 +12,10 @@ body {
     background-color: #f2f2f2;
 }
 
+body {
+    background-color: #ece28d;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -29,6 +33,53 @@ header h1 {
     color: white;
     font-size: 32px;
     font-weight: bold;
+}
+
+.portfolio-section {
+    /* Add any desired styles for the portfolio section */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portfolio-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    /* Add any desired button styles, such as font-size, font-family, etc. */
+}
+
+  /* Customize colors for each button */
+.portfolio-button:nth-child(1) {
+    background-color: #ff6347;
+}
+
+.portfolio-button:nth-child(2) {
+    background-color: #ffd700;
+}
+
+.portfolio-button:nth-child(3) {
+    background-color: #00bfff;
+}
+
+.portfolio-button:nth-child(4) {
+    background-color: #adff2f;
+}
+
+.portfolio-button:nth-child(5) {
+    background-color: #ff69b4;
+}
+
+.portfolio-button:nth-child(6) {
+    background-color: #00ced1;
 }
 
 /* Section styles */
