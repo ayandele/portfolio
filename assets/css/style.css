@@ -36,7 +36,9 @@ header h1 {
 }
 
 .portfolio-section {
-    /* Add any desired styles for the portfolio section */
+/* styles for the portfolio section */
+font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .button-container {
